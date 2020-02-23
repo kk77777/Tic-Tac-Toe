@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>tic-tac-toe</title>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-        <link href="https://fonts.googleapis.com/css?family=Geostar+Fill&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Geostar+Fill&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="/home/kk/Documents/web development/tic-tac-toe/css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <h1>Tic-Tac-Toe</h1>
     <h2 id="turn"></h2>
     <table>
-        <tr>
-            <td class="cell" id="0" onclick="inputFunction(this.id)"></td>
-            <td class="cell" id="1" onclick="inputFunction(this.id)"></td>
-            <td class="cell" id="2" onclick="inputFunction(this.id)"></td>
-        </tr>
-        <tr>
-            <td class="cell" id="3" onclick="inputFunction(this.id)"></td>
-            <td class="cell" id="4" onclick="inputFunction(this.id)"></td>
-            <td class="cell" id="5" onclick="inputFunction(this.id)"></td>
-        </tr>
-        <tr>
-            <td class="cell" id="6" onclick="inputFunction(this.id)"></td>
-            <td class="cell" id="7" onclick="inputFunction(this.id)"></td>
-            <td class="cell" id="8" onclick="inputFunction(this.id)"></td>
-        </tr>
+      <tr>
+        <td class="cell" id="0" onclick="inputFunction(this.id)"></td>
+        <td class="cell" id="1" onclick="inputFunction(this.id)"></td>
+        <td class="cell" id="2" onclick="inputFunction(this.id)"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="3" onclick="inputFunction(this.id)"></td>
+        <td class="cell" id="4" onclick="inputFunction(this.id)"></td>
+        <td class="cell" id="5" onclick="inputFunction(this.id)"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="6" onclick="inputFunction(this.id)"></td>
+        <td class="cell" id="7" onclick="inputFunction(this.id)"></td>
+        <td class="cell" id="8" onclick="inputFunction(this.id)"></td>
+      </tr>
     </table>
 
     <div class="endgame">
-        <div class="text"></div>
+      <div class="text"></div>
     </div>
 
     <div class="replayDiv">
-        <button id="replay" class="btn btn-dark" onclick="newGame()">Replay</button>
+      <button id="replay" class="btn btn-dark" onclick="newGame()">
+        Replay
+      </button>
     </div>
 
-
-
-
     <!-- <script src="/home/kk/Documents/web development/tic-tac-toe/index.js"></script> -->
-    <script src="/home/kk/Documents/web development/tic-tac-toe/index2.js"></script>
-</body>
-
+    <script src="index2.js"></script>
+  </body>
 </html>
